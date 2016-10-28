@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="clasz" catalog="school_hibernate"
+		class="com.jzfacory.jd.bean.Clasz">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="master" catalog="school_hibernate"
+		class="com.jzfacory.jd.bean.Master">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="student" catalog="school_hibernate"
+		class="com.jzfacory.jd.bean.Student">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="score" catalog="school_hibernate"
+		class="com.jzfacory.jd.bean.Score">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+<table name="course" catalog="school_hibernate"
+	class="com.jzfacory.jd.bean.Course">
+	<primary-key>
+		<generator class="native"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>
