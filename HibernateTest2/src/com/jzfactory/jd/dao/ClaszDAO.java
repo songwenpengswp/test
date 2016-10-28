@@ -161,5 +161,9 @@ public class ClaszDAO extends BaseHibernateDAO  {
     	Clasz cls=(Clasz)dao.findById(1);
 //    	System.out.println(cls.getMaster());
     	System.out.println(cls.getStudents());
+    	
+    	
+    	
+    	
 	}
 }
