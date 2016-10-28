@@ -165,5 +165,9 @@ public class ClaszDAO extends BaseHibernateDAO  {
     	
     	
     	
+    	
+    	
+    	
+    	
 	}
 }
